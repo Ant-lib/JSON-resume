@@ -11,13 +11,41 @@
   </head>
   <body>
 
-  <div class="container">
-    
+  <div class="main_container">
+
+    <div class="upload_form_container">
+        <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
+            <div>
+                <div><label for="upload_file">Please select json file</label></div>
+                <div><input type="file" name="upload_file" id="upload_file" /></div>
+            </div>
+            <div>
+                <input type="button" id="upload_btn" value="Upload" />
+            </div>
+            <div id="fileinfo">
+                <div id="filename"></div>
+                <div id="filesize"></div>
+                <div id="filetype"></div>
+            </div>
+            <div id="upload_error">An error occurred while uploading the file</div>
+            <div id="abort">The upload has been canceled</div>
+            <div id="warnsize">File is too big</div>
+        </form>
+
+        <div id="progress_info">
+            <div id="upload_response"></div>
+        </div>
+
+        <div id="json_data"></div> 
+    </div>
+
   </div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/custom/jrp.main-0.0.1.js"></script>
+    <script src="js/custom/jrp.file-upload-0.0.1.js"></script>
   </body>
 </html>

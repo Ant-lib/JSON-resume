@@ -1,4 +1,54 @@
 /* main */
 
+.main_container {
+    overflow: hidden;
+    width: 960px;
+    margin: 20px auto;
+}
+
+.upload_form_container {
+    color: #000;
+    overflow: hidden;
+}
+
+#upload_form {
+    float: left;
+    padding: 20px;
+    width: 700px;
+}
+
+#preview {
+    background-color: #fff;
+    display: block;
+    float: right;
+    width: 200px;
+}
+
+#upload_file {
+    width: 400px;
+}
+
+#progress_info {
+    font-size: 10pt;
+}
+
+#fileinfo, #upload_error, #abort, #warnsize {
+    color: #aaa;
+    display: none;
+    font-size: 10pt;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#upload_response {
+    margin-top: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+input {
+    font-size: 12pt;
+    padding: 2px 5px;
+}
 
 /* end main */

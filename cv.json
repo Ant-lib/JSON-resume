@@ -1,0 +1,168 @@
+{
+   "$schema":"http://json-schema.org/draft-04/schema#",
+   "description":"json-resume",
+   "profile":{
+      "name":"Anton Kraskov",
+      "phone":"+84-123-514-4153",
+      "email":"kraskova@tcd.ie",
+      "website":"http://ant.directory",
+      "objective":"Highly motivated and enthusiastic person with valuable job experience is looking for an opportunity to continue to evolve his skills in a fast paced and challenging environment, by working with latest and emerging technologies."
+   },
+   "employment":[
+      {
+         "company":"Loyalty Program Manager LLC",
+         "position":"Lead Software Engineer",
+         "type":"full-time",
+         "address":"Almaty, Republic of Kazakhstan",
+         "startDate":"Spring 2013",
+         "endDate":"",
+         "description":[
+            "Provide overall architecture guidance",
+            "Developed main system logic, partners integration modules and website from the first beginning",
+            "Implement data models and information flow between system components",
+            "Design, implement and manage a high-availability, secure and scalable server infrastructure",
+            "Organize deployment workflows to efficiently release new versions of system",
+            "Mentor developers in best practices and use of new technologies and frameworks",
+            "Troubleshoot, diagnose, and triage issues involving the production system"
+         ]
+      },
+      {
+         "company":"ALSI LLC",
+         "position":"Web Developer",
+         "type":"full-time",
+         "address":"Almaty, Republic of Kazakhstan",
+         "startDate":"Spring 2012",
+         "endDate":"Spring 2013",
+         "description":[
+            "Developing applications for Microsoft SharePoint Server 2010-2013",
+            "Developing web-projects on ASP.NET",
+            "Design and implementation of Windows Desktop Applications",
+            "Main and mobile company website development",
+            "Microsoft SharePoint administration"
+         ]
+      },
+      {
+         "company":"Keywords International Ltd.",
+         "position":"QA Localization tester",
+         "type":"full-time",
+         "address":"Dublin, Republic of Ireland",
+         "startDate":"Fall 2011",
+         "endDate":"Winter 2011",
+         "description":[
+            "Perform QA tasks (conduct linguistic, usability, functionality, performance and load testing)",
+            "Creating test plans and test suites"
+         ]
+      },
+      {
+         "company":"PAVEV Limited T/A Iterra",
+         "position":"Software Developer",
+         "type":"part-time",
+         "address":"Dublin, Republic of Ireland",
+         "startDate":"Summer 2011",
+         "endDate":"Winter 2011",
+         "description":[
+            "Managing, configuring and development of e-Commerce/Web projects. Configuring of dedicated server"
+         ]
+      },
+      {
+         "company":"Etno-Mura",
+         "position":"Senior Systems Administrator",
+         "type":"full-time",
+         "address":"Almaty, Republic of Kazakhstan",
+         "startDate":"Winter 2008",
+         "endDate":"Summer 2009",
+         "description":[
+            "Plan and implement client-server infrastructure based on the MS Windows Server 2008 R2",
+            "Configuration of Active Directory, VPN, MS Forefront, DC, DNS, DHCP",
+            "Monitoring of network infrastructure and initial diagnostics and troubleshooting of issues in central office and branches"
+         ]
+      },
+      {
+         "company":"SB-Design Studio",
+         "position":"Network Engineer",
+         "type":"full-time",
+         "address":"Almaty, Republic of Kazakhstan",
+         "startDate":"Fall 2005",
+         "endDate":"Winter 2007",
+         "description":[
+            "Providing software/hardware troubleshooting",
+            "Supporting finance and accounting software (1C, IS SONO, IS MOP, EFNO, NDS, ISID, SGDS and INIS)"
+         ]
+      },
+      {
+         "company":"KazSelEnergoProekt",
+         "position":"Systems Engineer/Software Developer",
+         "type":"internship",
+         "address":"Almaty, Republic of Kazakhstan",
+         "startDate":"Summer 2005",
+         "endDate":"Summer 2005",
+         "description":[
+            "Development of applications to automate working process (Delphi, Pascal)",
+            "Porting old software applications to new Windows infrastructure",
+            "Plan and implement client-server infrastructure based on the MS Windows Server 2008 R2",
+            "Installation and configuration of computer and networking hardware/ software"
+         ]
+      }
+   ],
+   "education":[
+      {
+         "institution":"Trinity College, Dublin",
+         "address":"Dublin, Republic of Ireland",
+         "area":"Information Technology",
+         "studyType":"Postgraduate",
+         "startDate":"2009",
+         "endDate":"2010",
+         "details":[
+            "M.Sc. In Computer Science – Networks and Distributed Systems",
+            "Dissertation titled “To evaluate Functions, Performance and Fitness of the Existing Bundle Security Protocol (BSP) Implementation of Delay- and Disruption- Tolerant Networking (DTN)”, 2010"
+         ],
+         "projects":[
+            "Distributed Clinical Data Query Framework. The aim of the project was to design and develop Peer-to-peer clinical research tool, which allows researchers to query and process patient data across every GP in the EU. JXTA Framework was used for implementation",
+            "Impact Analysis of Wireless Sensor Network testbeds on Internet Infrastructure. The objective of this project was to research the impact of individual nodes of a wireless sensor network (WSN) testbed on Internet infrastructure. The Berkeley 6LoWPAN stack was configured on the TelosB motes. Created Web Server was used to measure such as packet loss, response time and packet features"
+         ]
+      },
+      {
+         "institution":"Kazakh National Technical University named after K.I. Satpayev",
+         "address":"Almaty, Republic of Kazakhstan",
+         "area":"Information Technology",
+         "studyType":"Undergraduate",
+         "startDate":"2004",
+         "endDate":"2008",
+         "details":[
+            "B.Sc. In Computer Science – Computing Technology and Software Development"
+         ],
+         "projects":[
+            ""
+         ]
+      }
+   ],
+   "experience":[
+      {
+         "programming":[
+            "Java, JSP, JavaScript, jQuery, AJAX, PHP, HTML/CSS, Bootstrap, NodeJS",
+            "Familiar with: .NET, C/C++, Python, AngularJs, WSDL, nesC, Ruby"
+         ],
+         "technologies":[
+            "Database: Postgres, MySQL, MS SQL Server 2005/2008",
+            "Other: AWS, testing with JUnit,  Glassfish Server, Tomcat, SOAP, Netbeans IDE, Eclipse IDE, VMware Server, SVN, Git, MiKTeX, Adobe Photoshop, CorelDRAW",
+            "In-depth knowledge of OSI Stack; solid understanding of IP networking, network devices, network security and common topologies",
+            "Experience with Agile Management and OO Modeling; strong understanding of coding principles and concepts; knowledge of middleware, UML modeling and reactive systems"
+         ]
+      }
+   ],
+   "strengths":[
+      "Responsible",
+      "Problem solving skills",
+      "Enthusiastic",
+      "Fast learner",
+      "Analysis and Design skills",
+      "Self-motivated",
+      "Willing to learn",
+      "Ability to work as part of a team"
+   ],
+   "references":[
+      {
+         "details":"References available on request"
+      }
+   ]
+}

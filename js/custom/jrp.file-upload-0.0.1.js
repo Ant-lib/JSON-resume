@@ -1,9 +1,9 @@
 
 var fileUploader = function() {
     this.fileMaxSize = 1048576;
+    this.oUploadedFil;
 
     this.fileSelected = function() {
-        document.getElementById('upload_response').style.display = 'none';
         document.getElementById('upload_error').style.display = 'none';
         document.getElementById('abort').style.display = 'none';
         document.getElementById('warnsize').style.display = 'none';
@@ -16,9 +16,10 @@ var fileUploader = function() {
         }
 
         var oReader = new FileReader();
-            oReader.onload = function(e){
-            oUploadedFile.src = e.target.result;
+        oReader.onload = function(e) {
+            fileUploader.oUploadedFile = JSON.parse(e.target.result);
         };
+        oReader.readAsText(oFile);
     }
 
     this.startUploading = function() {
@@ -29,18 +30,9 @@ var fileUploader = function() {
         var vFD = new FormData(document.getElementById('upload_form')); 
 
         var oXHR = new XMLHttpRequest();        
-        oXHR.addEventListener('load', fileUploader.uploadFinish, false);
         oXHR.addEventListener('abort', fileUploader.uploadAbort, false);
         oXHR.open('POST', 'upload.php');
         oXHR.send(vFD);
-    }
-
-    this.uploadFinish =  function(e) {
-        var oUploadResponse = document.getElementById('upload_response');
-        oUploadResponse.innerHTML = e.target.responseText;
-        oUploadResponse.style.display = 'block';
-
-        document.getElementById('filesize').innerHTML = fileUploader.sResultFileSize;
     }
 
     this.uploadError = function(e) {

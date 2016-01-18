@@ -21,22 +21,12 @@
     width: 400px;
 }
 
-#progress_info {
-    font-size: 10pt;
-}
-
-#fileinfo, #upload_error, #abort, #warnsize {
+#upload_error, #abort, #warnsize {
     color: #aaa;
     display: none;
     font-size: 10pt;
     font-style: italic;
     margin-top: 10px;
-}
-
-#upload_response {
-    margin-top: 10px;
-    overflow: hidden;
-    display: none;
 }
 
 input {

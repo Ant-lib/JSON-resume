@@ -5,42 +5,37 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ant.directory | JSON-resume-parser</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
   </head>
   <body>
 
   <div class="main_container">
-
     <div class="upload_form_container">
         <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
-            <div>
-                <div>
-                    <label for="upload_file">Please select json file</label>
-                    <input type="file" name="upload_file" id="upload_file" />
-                </div>
-            </div>
+            <label for="upload_file">Please select json file:</label>
+            <input type="file" name="upload_file" id="upload_file" />
             <div id="upload_error">An error occurred while uploading the file</div>
             <div id="abort">The upload has been canceled</div>
             <div id="warnsize">File is too big</div>
         </form>
 
-        <div id="resume_profile_container"></div>
-        <div id="resume_employment_0_container"></div>
-        <div id="resume_employment_1_container"></div>
-        <div id="resume_employment_2_container"></div>
-        <div id="resume_employment_3_container"></div>
-        <div id="resume_employment_4_container"></div>
-        <div id="resume_employment_5_container"></div>
-        <div id="resume_employment_6_container"></div>
-        <div id="resume_education_0_container"></div>
-        <div id="resume_education_1_container"></div>
-        <div id="resume_experience_container"></div>
-        <div id="resume_strengths_container"></div>
-        <div id="resume_references_container"></div>
+        <div class="resume_viewer">
+            <div id="resume_profile_container"></div>
+            <div id="resume_employment_0_container"></div>
+            <div id="resume_employment_1_container"></div>
+            <div id="resume_employment_2_container"></div>
+            <div id="resume_employment_3_container"></div>
+            <div id="resume_employment_4_container"></div>
+            <div id="resume_employment_5_container"></div>
+            <div id="resume_employment_6_container"></div>
+            <div id="resume_education_0_container"></div>
+            <div id="resume_education_1_container"></div>
+            <div id="resume_experience_container"></div>
+            <div id="resume_strengths_container"></div>
+            <div id="resume_references_container"></div>
+        </div>
     </div>
-
   </div>
 
     <script src="js/vendor/jquery.min.js"></script>

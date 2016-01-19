@@ -1,7 +1,12 @@
 /* main */
 
+html, body {
+  height: 100% !important;
+  padding: 0px;
+  margin: 0;
+}
+
 .main_container {
-    overflow: hidden;
     width: 960px;
     margin: 20px auto;
 }
@@ -11,27 +16,58 @@
     overflow: hidden;
 }
 
-#upload_form {
+.upload_form_container label {
+    width: 160px;
+    position: relative;
+    top: 14px;
+    left: 240px;
     float: left;
-    padding: 20px;
-    width: 700px;
+    font: normal 14px Verdana, Arial, sans-serif, Georgia, "Times New Roman", Times, serif;
+}
+
+#upload_form {
+    width: 900px;
+    border: 1px solid #02759C;
 }
 
 #upload_file {
     width: 400px;
+    position: relative;
+    top: 7px;
+    left: 250px;
+    overflow: hidden;
 }
 
 #upload_error, #abort, #warnsize {
-    color: #aaa;
+    color: red;
     display: none;
+    text-align: center;
     font-size: 10pt;
     font-style: italic;
-    margin-top: 10px;
+    margin: 10px 0 5px 0;
 }
 
 input {
     font-size: 12pt;
     padding: 2px 5px;
 }
+
+.resume_viewer {
+    margin-top: 20px;
+    font: normal 12px Verdana, Arial, sans-serif, Georgia, "Times New Roman", Times, serif;
+    color: #000;
+}
+
+
+#resume_profile_container #profile #name {
+    font: bold 18px "Calibri", Arial, sans-serif, Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.block h5 span {
+    margin-left: 20px;
+    font: normal 12px "Calibri", Arial, sans-serif, Georgia, "Times New Roman", Times, serif;
+}
+
 
 /* end main */

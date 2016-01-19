@@ -1,139 +1,128 @@
 <script id="resume_profile_template" type="text/html">
-    <div>
-        <div>##$[name]$##</div>
-        <div>##$[phone]$##</div>
-        <div>##$[email]$##</div>
-        <div>##$[website]$##</div>
-        <div>##$[objective]$##</div>
-    </div>
+	<div class="block"> 
+		<h5>##$[name]$##</h5>
+	</div>
+	<hr>
+	<div class="block">
+		<h6>About me</h6>
+		<p>##$[objective]$##</p>
+	</div>
+	<hr>
+	<div class="block">
+	<h5>Contact me</h5>
+		<p>##$[phone]$##</p>
+		<p>##$[email]$##</p>
+		<p>##$[website]$##</p>
+	</div>
 </script>
 
 <script id="resume_employment_0_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
-    </div>
+	<div class="experience">
+		<h4>Work Experience</h4>
+		<hr>
+	    <div class="block">
+			<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+			<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## ##$[endDate]$##</p>
+            <p>##$[description]$##</p>
+        </div>
+        <hr>
 </script>
-
 <script id="resume_employment_1_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+    <div class="block">
+		<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+		<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
     </div>
+    <hr>
 </script>
-
 <script id="resume_employment_2_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+    <div class="block">
+		<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+		<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
     </div>
+    <hr>
 </script>
-
 <script id="resume_employment_3_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+    <div class="block">
+		<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+		<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
     </div>
+    <hr>
 </script>
-
 <script id="resume_employment_4_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+    <div class="block">
+		<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+		<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
     </div>
+    <hr>
 </script>
-
 <script id="resume_employment_5_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+    <div class="block">
+		<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+		<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
     </div>
+    <hr>
 </script>
-
 <script id="resume_employment_6_template" type="text/html">
-    <div>
-        <div>##$[company]$##</div>
-        <div>##$[position]$##</div>
-        <div>##$[type]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[description]$##</div>
+	    <div class="block">
+			<h5>##$[position]$##<span>(##$[type]$##)</span></h5>
+			<p><h6>##$[company]$##</h6><span>##$[address]$##</span> (##$[startDate]$## - ##$[endDate]$##)</p>
+        <p>##$[description]$##</p>
+    	</div>
     </div>
+    <hr>
 </script>
 
 
 <script id="resume_education_0_template" type="text/html">
-    <div>
-        <div>##$[institution]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[area]$##</div>
-        <div>##$[studyType]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[details]$##</div>
-        <div>##$[projects]$##</div>
-    </div>
+	<h4>Education</h4>
+	<hr>
+	<div class="block">
+		<h5>##$[institution]$##</h5>
+		<p>##$[area]$## <span>##$[address]$##</span> ##$[startDate]$## - ##$[endDate]$##</p>
+		<h5>Details</h5>
+		<p>##$[details]$##</p>
+		<h5>Projects</h5>
+		<p>##$[projects]$##</p>
+	</div>
 </script>
-
 <script id="resume_education_1_template" type="text/html">
-    <div>
-        <div>##$[institution]$##</div>
-        <div>##$[address]$##</div>
-        <div>##$[area]$##</div>
-        <div>##$[studyType]$##</div>
-        <div>##$[startDate]$##</div>
-        <div>##$[endDate]$##</div>
-        <div>##$[details]$##</div>
-        <div>##$[projects]$##</div>
-    </div>
+	<hr>
+	<div class="block">
+		<h5>##$[institution]$##</h5>
+		<p>##$[area]$## <span>##$[address]$##</span> ##$[startDate]$## - ##$[endDate]$##</p>
+		<h5>Details</h5>
+		<p>##$[details]$##</p>
+	</div>
 </script>
 
 <script id="resume_experience_template" type="text/html">
-    <div>
-        <div>##$[programming]$##</div>
-        <div>##$[technologies]$##</div>
-    </div>
+	<hr>
+	<h4>Experience</h4>
+	<div class="block">
+		<h5>Programming</h5>
+		<p>##$[programming]$##</p>
+		<h5>Technologies</h5>
+		<p>##$[technologies]$##</p>
+	</div>
 </script>
 
 <script id="resume_strengths_template" type="text/html">
-    <div>
-        <div>##$[measures]$##</div>
-    </div>
+	<hr>
+	<h4>Strengths</h4>
+	<div class="block">
+		<p>##$[measures]$##</p>
+	</div>
 </script>
 
 <script id="resume_references_template" type="text/html">
-    <div>
-        <div>##$[details]$##</div>
-    </div>
+	<hr>
+	<h4>References</h4>
+	<div class="block">
+		<p>##$[details]$##</p>
+	</div>
 </script>

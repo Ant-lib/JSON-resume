@@ -12,9 +12,9 @@ var referencesData = "";
 $('input#upload_file').on('change', function() {
 	fileUploader = new fileUploader();
 	fileUploader.fileSelected();
+	$('form#upload_form').fadeOut();
 
 	setTimeout(function() {
-
 		for (var i in resumeSection) {
 			var currentSectionName = resumeSection[i];
 			var uploadedJsonFileSection = eval("fileUploader.oUploadedFile." + currentSectionName);
@@ -51,7 +51,6 @@ $('input#upload_file').on('change', function() {
 		var strengthsDataObj = eval("(" + strengthsData + ")");
 		var referencesDataObj = eval("(" + referencesData + ")");
 
-
 		// template parsing
 		var profile_data = templateParse($("#resume_profile_template").html(), profileDataObj);
 
@@ -84,7 +83,5 @@ $('input#upload_file').on('change', function() {
 		$(experience_data).appendTo("#resume_experience_container");
 		$(strengths_data).appendTo("#resume_strengths_container");
 		$(references_data).appendTo("#resume_references_container");
-
 	}, 200);
-	
 });

@@ -141,34 +141,34 @@
    "experience":[
       {
          "programming":[
-            "Java, JSP, JavaScript, jQuery, AJAX, PHP, HTML/CSS, Bootstrap, NodeJS;",
+            "Java, JSP, JavaScript, jQuery, AJAX, PHP, HTML/CSS, Bootstrap, NodeJS ",
             ".NET, C/C++, Python, AngularJs, WSDL, nesC, Ruby;"
          ],
          "technologies":[
-            "Database: Postgres, MySQL, MS SQL Server 2005/2008;",
-            "Other: AWS, testing with JUnit,  Glassfish Server, Tomcat, SOAP, Netbeans IDE, Eclipse IDE, VMware Server, SVN, Git, MiKTeX, Adobe Photoshop, CorelDRAW;",
-            "In-depth knowledge of OSI Stack; solid understanding of IP networking, network devices, network security and common topologies;",
-            "Experience with Agile Management and OO Modeling; strong understanding of coding principles and concepts; knowledge of middleware, UML modeling and reactive systems;"
+            " Database: Postgres, MySQL, MS SQL Server 2005/2008",
+            " Other: AWS, testing with JUnit,  Glassfish Server, Tomcat, SOAP, Netbeans IDE, Eclipse IDE, VMware Server, SVN, Git, MiKTeX, Adobe Photoshop, CorelDRAW",
+            " In-depth knowledge of OSI Stack; solid understanding of IP networking, network devices, network security and common topologies",
+            " Experience with Agile Management and OO Modeling; strong understanding of coding principles and concepts; knowledge of middleware, UML modeling and reactive systems."
          ]
       }
    ],
    "strengths":[
       {
          "measures":[
-            "Responsible;",
-            "Problem solving skills;",
-            "Enthusiastic;",
-            "Fast learner;",
-            "Analysis and Design skills;",
-            "Self-motivated;",
-            "Willing to learn;",
-            "Ability to work as part of a team;"
+            " Responsible",
+            " Problem solving skills",
+            " Enthusiastic",
+            " Fast learner",
+            " Analysis and Design skills",
+            " Self-motivated",
+            " Willing to learn",
+            " Ability to work as part of a team"
          ]
       }
    ],
    "references":[
       {
-         "details":"References available on request"
+         "details":"References available on request."
       }
    ]
 }
